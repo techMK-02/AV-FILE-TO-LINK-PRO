@@ -9,23 +9,23 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'Webavbot')
-API_ID = int(environ.get('API_ID', '12345678'))
-API_HASH = environ.get('API_HASH', '812529feb49f578FHB5d1')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7091568:AAGpX2rVUnDHCYV-96GJVUV")
-BOT_USERNAME = environ.get("BOT_USERNAME", 'AV_F2L_BOT') # without @ 
+API_ID = int(environ.get('API_ID', '22422690'))
+API_HASH = environ.get('API_HASH', '2884fbc53b44a1bbcfa7c525e185c1aa')
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_USERNAME = environ.get("BOT_USERNAME", 'UserInfoTooBot') # without @ 
 
 # Admins, Channels & Users
 BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-100')) # admin your channel in users log 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5977931010').split()] # 3567788, 678899, 5889467
-OWNER_USERNAME = environ.get("OWNER_USERNAME", 'BOT_OWNER26') # without @ 
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002652695292')) # admin your channel in users log 
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7793257011').split()] # 3567788, 678899, 5889467
+OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Devathanos') # without @ 
 
 # pics information
 PICS = environ.get('PICS', 'https://envs.sh/_pM.jpg')
 
 # channel link information
-CHANNEL = environ.get('CHANNEL', 'https://t.me/AV_BOTz_UPDATE')
-SUPPORT = environ.get('SUPPORT', 'https://t.me/AV_SUPPORT_GROUP')
+CHANNEL = environ.get('CHANNEL', 'https://t.me/Wabx_Updates')
+SUPPORT = environ.get('SUPPORT', 'https://t.me/WabX_Support')
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
 #This Repo Is By @BOT_OWNER26 
@@ -56,11 +56,11 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
 
 # fsub  information
 AUTH_PICS = environ.get('AUTH_PICS', 'https://envs.sh/AwV.jpg')              
-AUTH_CHANNEL = (environ.get("AUTH_CHANNEL", "-100"))
+AUTH_CHANNEL = (environ.get("AUTH_CHANNEL", "-1002829448169"))
 FSUB = environ.get("FSUB", True)
 
 # port information
-PORT = int(getenv('PORT', '2626'))
+PORT = int(getenv('PORT', '8080'))
 NO_PORT = bool(getenv('NO_PORT', False))
 
 #Dont Remove My Credit @AV_BOTz_UPDATE 
