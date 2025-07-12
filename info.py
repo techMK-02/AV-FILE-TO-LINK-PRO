@@ -15,7 +15,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 BOT_USERNAME = environ.get("BOT_USERNAME", 'UserInfoTooBot') # without @ 
 
 # Admins, Channels & Users
-BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-100')) # admin your channel in stream 
+BIN_CHANNEL = int(environ.get("BIN_CHANNEL", '-1002593263685')) # admin your channel in stream 
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", '-1002652695292')) # admin your channel in users log 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7793257011').split()] # 3567788, 678899, 5889467
 OWNER_USERNAME = environ.get("OWNER_USERNAME", 'Devathanos') # without @ 
